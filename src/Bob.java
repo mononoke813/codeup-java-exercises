@@ -9,11 +9,9 @@ public class Bob {
         String chillFactor = "Whoa, chill out!";
         String sassFrass = "Fine. Be that way!";
 
-        String userContinue = "";
         System.out.println("Start your conversation with Bob. Good luck...");
 
         while(true) {
-
 
             String userResponse = sc.nextLine();
 
@@ -28,13 +26,7 @@ public class Bob {
             } else if (userResponse.equalsIgnoreCase("Goodbye")){
                 break;
             }
-
         }
-
-//
-
-
-
 
 
     }
