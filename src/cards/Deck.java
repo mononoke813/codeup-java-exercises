@@ -11,7 +11,7 @@ public class Deck {
     }
     public void shuffle() {
         //shuffle the deck
-        for (int i = 0; i < this.size(); i++) {
+        for (int i = 0; i < this.cards.size(); i++) {
             int rand = (int) Math.floor((Math.random() * this.cards.size()));
             PokerCard temp = this.cards.get(i);
             this.cards.set(i, this.cards.get(rand));
