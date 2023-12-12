@@ -1,13 +1,21 @@
 package util;
-import shapes.Circle;
 
 public class InputTest {
     public static void main(String[] args) {
-        Input input = new Input();
-        System.out.println("Enter the radius of the circle: ");
-        double radius = input.getDouble();
-        Circle circle = new Circle(radius);
-        System.out.println("The area of the circle is: " + circle.getArea());
-        System.out.println("The circumference of the circle is: " + circle.getCircumference());
+//        System.out.println("Enter your favorite color");
+//        String userInput = new Input().getString();
+//        System.out.println("You chose: " + userInput);
+
+//        System.out.println("Enter your favorite number");
+//        int userInput = new Input().getInt();
+//        System.out.println("You chose: " + userInput);
+
+//        System.out.println("Do you like potatoes?");
+//        boolean userInput = new Input().yesNo();
+//        System.out.println("You said: " + userInput);
+
+        System.out.println("How much money do you have?");
+        double userInput = new Input().getDouble(5.70, 1000.00);
+        System.out.println("You have: $" + userInput);
     }
 }

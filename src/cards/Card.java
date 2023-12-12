@@ -53,10 +53,9 @@ public class Card {
             case "Ace":
                 this.value = 11;
                 break;
-
-
         }
     }
+
     public void flip(){
         System.out.println("A " + this.name + " of " + this.suit + " (value: " + this.value + ", color: " + this.color + ")");
     }

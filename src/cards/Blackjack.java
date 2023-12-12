@@ -14,7 +14,7 @@ public class Blackjack {
         myDeck.shuffle();
 
         //return an Object myCard = from myDeck and deal the cards
-        Card myCard = myDeck.deal();
+        PokerCard myCard = myDeck.deal();
 
         //to see the card
         myCard.flip();
